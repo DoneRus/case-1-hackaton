@@ -101,19 +101,27 @@ width: 6vw;
     justify-content: flex-end; /* Center child elements */
     align-items: flex-end;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
   }
   
-  .popup .popuptext {
-    display: flex;
-    justify-content: center;
-    visibility: hidden;
-    width: 600px;
-    background-color: black;
-    color: #fff;
+.hidden {
+  display: none;
+}
+
+.wit {
+  background-color: white !important;
+}
+
+.info {
+  display: flex;
+  gap: 17.5px;
+  flex-direction: row;
+}
+
+.blockInfo {
+    width: 6vw;
+    height: 6vh;
+    background-color: blue;
+    color: white;
     text-align: center;
     border-radius: 6px;
     padding: 15px 15px;
@@ -178,7 +186,5 @@ width: 6vw;
     top: 50%;
     left: 50%;
     color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    background-color: black;
-  }
+    text-align: center;
+}
