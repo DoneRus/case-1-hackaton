@@ -14,17 +14,20 @@
 
 
 
-.tooltip {
+.popup {
     display: flex;
     position: relative;
     background-color: aliceblue;
-    z-index: 0;
     justify-content: flex-end; /* Center child elements */
     align-items: flex-end;
-    overflow: visible;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   
-  .tooltip .tooltiptext {
+  .popup .popuptext {
     display: flex;
     justify-content: center;
     visibility: hidden;
@@ -39,23 +42,32 @@
     left: 30%;
     top: 70%;
     
-    opacity: 0;
-    transition: opacity 1s;
 
   }
 
-  .tooltiptext{
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1 ;}
+  }
+
+  .popuptext{
     display: flex;
     justify-content: center;
     flex-direction: column;
 
   }
 
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-
-    opacity: 1;
-  }
 
   .container1 {
     display:flex;
