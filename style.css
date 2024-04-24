@@ -1,4 +1,55 @@
 .block {
+    width: 13vw;
+    height: 13vh;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+.hidden {
+  display: none;
+}
+
+.wit {
+  background-color: white !important;
+}
+
+.info {
+  display: flex;
+  gap: 17.5px;
+  flex-direction: row;
+}
+
+.blockInfo {
+    width: 6vw;
+    height: 6vh;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.blockRegie {
+  width: 13vw;
+  height: 22.5vh;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.blockService {
+  width: 13vw;
+  height: 14vh;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.blockHub {
   width: 13vw;
   height: 13vh;
   background-color: blue;
@@ -7,178 +58,24 @@
   cursor: pointer;
 }
 
-.hidden {
-display: none;
-}
-
-.wit {
-background-color: white !important;
-}
-
-.info {
-display: flex;
-gap: 17.5px;
-flex-direction: row;
-}
-
-.blockInfo {
-  width: 6vw;
-  height: 6vh;
+.blockInt {
+  width: 13vw;
+  height: 13vh;
   background-color: blue;
   color: white;
   text-align: center;
   cursor: pointer;
 }
 
-.blockRegie {
-width: 13vw;
-height: 22.5vh;
-background-color: blue;
-color: white;
-text-align: center;
-cursor: pointer;
-margin-top: 32px;
-}
-
-.blockService {
-width: 13vw;
-height: 14vh;
-background-color: blue;
-color: white;
-text-align: center;
-cursor: pointer;
-}
-
-.blockHub {
-width: 13vw;
-height: 13vh;
-background-color: blue;
-color: white;
-text-align: center;
-cursor: pointer;
-}
-
-.blockInt {
-width: 13vw;
-height: 13vh;
-background-color: blue;
-color: white;
-text-align: center;
-cursor: pointer;
-}
-
 .blokTwee {
-display: flex;
-column-gap: 1vw;
+  display: flex;
+  column-gap: 1vw;
 }
 
 .blockGeen {
-width: 6vw;
-  height: 6vh;
-  background-color: blue;
-  color: white;
-  text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.popup {
-    display: flex;
-    position: relative;
-    background-color: aliceblue;
-    justify-content: flex-end; /* Center child elements */
-    align-items: flex-end;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .popup .popuptext {
-    display: flex;
-    justify-content: center;
-    visibility: hidden;
-    width: 600px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 15px 15px;
-    z-index: 1;
-    position: absolute;
-    left: 30%;
-    top: 70%;
-    
-
-  }
-
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 0.5s;
-    animation: fadeIn 0.5s;
-  }
-
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-  }
-
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1 ;}
-  }
-
-  .popuptext{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-  }
-
-
-  .container1 {
-    display:flex;
-    justify-content: center;
-    height: auto;
-    margin: 10%;
-  }
-
-  #main-text{
-    justify-self: flex-start;
-    padding: 20px;
-  }
-
-  #overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-  }
-  
-  #text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  width: 6vw;
+    height: 6vh;
+    background-color: blue;
     color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    background-color: black;
-  }
+    text-align: center;
+}
