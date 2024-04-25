@@ -175,6 +175,13 @@
   cursor: pointer;
 }
 
+.not-text {
+  -webkit-user-select: none;
+   -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 @media only screen and (max-width: 1387px){
   .blokTwee {
     font-size: 0.5em;
