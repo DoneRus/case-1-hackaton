@@ -1,14 +1,25 @@
+* {
+  color: black;
+}
+
 .block {
     width: 13vw;
     height: 13vh;
-    background-color: blue;
+    box-shadow: 0px 0px 0px 6px rgba(169,204,238,255);
     color: white;
     text-align: center;
-    cursor: pointer;
   }
+
+.blockBoven {
+  width: 13vw;
+  height: 13vh;
+  box-shadow: 0px 0px 0px 6px rgba(169,204,238,255);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}  
   
 .hidden {
-  display: none;
 }
 
 .wit {
@@ -22,49 +33,67 @@
 }
 
 .blockInfo {
-    width: 6vw;
-    height: 6vh;
-    background-color: blue;
-    color: white;
-    text-align: center;
-    cursor: pointer;
+  width: 6vw;
+  height: 6vh;
+  box-shadow: 0 0 0 2px rgb(169,204,238,255), 8px 8px 0 0 rgb(169,204,238,255);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.half {
+  height: 3.6vh;
+}
+
+.half2 {
+  height: 4.2vh;
 }
 
 .blockRegie {
   width: 13vw;
-  height: 22.5vh;
-  background-color: blue;
-  color: white;
+  height: 21vh;
+  box-shadow: 0px 0px 0px 6px rgba(169,204,238,255);
   text-align: center;
-  cursor: pointer;
   margin-top: 32px;
 }
 
 .blockService {
   width: 13vw;
-  height: 14vh;
-  background-color: blue;
-  color: white;
+  height: 13vh;
+  box-shadow: 0px 0px 0px 6px rgb(126,178,230,255);
   text-align: center;
-  cursor: pointer;
 }
 
 .blockHub {
   width: 13vw;
-  height: 13vh;
-  background-color: blue;
-  color: white;
+  height: 27vh;
+  box-shadow: 0px 0px 0px 6px rgb(31,95,160,255);
   text-align: center;
-  cursor: pointer;
 }
 
 .blockInt {
   width: 13vw;
-  height: 13vh;
-  background-color: blue;
-  color: white;
+  height: 21vh;
+  box-shadow: 0px 0px 0px 6px rgb(20,63,106,255);
   text-align: center;
-  cursor: pointer;
+}
+
+.een {
+  box-shadow: 0 0 0 2px rgb(169,204,238,255), 8px 8px 0 0 rgb(169,204,238,255);
+}
+
+.twee {
+  box-shadow: 0 0 0 2px rgb(126,178,230,255), 8px 8px 0 0 rgb(126,178,230,255);
+}
+
+.drie {
+  box-shadow: 0 0 0 2px rgb(31,95,160,255), 8px 8px 0 0 rgb(31,95,160,255);
+}
+
+.vier {
+  box-shadow: 0 0 0 2px rgb(20,63,106,255), 8px 8px 0 0 rgb(20,63,106,255);
 }
 
 .blokTwee {
@@ -78,4 +107,32 @@
     background-color: blue;
     color: white;
     text-align: center;
+}
+
+.probleem1 {
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.probleem2{
+  cursor: pointer;
+}
+
+.probleem3{
+  cursor: pointer;
+}
+
+.probleem4{
+  cursor: pointer;
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.reset {
+  cursor: pointer;
 }
