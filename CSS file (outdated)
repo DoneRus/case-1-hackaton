@@ -1,0 +1,160 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas:
+                      "empty StrategytoPortfolio RequirementToDeploy RequestToFulfill DetectToCorrect Supporting"
+                      "RegieEnSupport row2-colm2 row2-colm3 row2-colm4 row2-colm5 row2-colm6"
+                      "ServiceIntegratieOperations row3-colm2 row3-colm3 row3-colm4 row3-colm5 row3-colm6"
+                      "ServiceIntegrationHub row4-colm2 row4-colm3 row4-colm4 row4-colm5 row4-colm6"
+                      "IntegratieKoppelVlakken row5-colm2 row5-colm3 row5-colm4 row5-colm5 row5-colm6"
+
+}
+
+.Strategy-portfolio {
+  grid-area: StrategytoPortfolio;
+}
+
+.row2-colm2 {
+  grid-area: row2-colm2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row2-colm5 {
+  grid-area: row2-colm5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row2-colm6 {
+  grid-area: row2-colm6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row3-colm3 {
+  grid-area: row3-colm3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row3-colm4 {
+  grid-area: row3-colm4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row3-colm5 {
+  grid-area: row3-colm5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row4-colm3 {
+  grid-area: row4-colm3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row4-colm4 {
+  grid-area: row4-colm4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row4-colm5 {
+  grid-area: row4-colm5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row4-colm6 {
+  grid-area: row4-colm6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row5-colm3 {
+  grid-area: row5-colm3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row5-colm2 {
+  grid-area: row5-colm2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row5-colm4 {
+  grid-area: row5-colm4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row5-colm5 {
+  grid-area: row5-colm5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.row5-colm6 {
+  grid-area: row5-colm6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.licht-blauw-capability {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(0, 140, 255);
+}
+
+.grijs-capability {
+  width: 100%;
+  height: 10px;
+  background-color: grey;
+}
+
+.donker-blauw-capability  {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(0, 0, 145);
+}
+
+.Requirement-to-deploy {
+  grid-area: RequirementToDeploy;
+}
+
+.Request-to-fulfill {
+  grid-area: RequestToFulfill;
+}
+
+.Detect-to-correct {
+  grid-area: DetectToCorrect;
+}
+
+.Supporting {
+  grid-area: Supporting;
+}
+
+.Regie-support {
+  grid-area: RegieEnSupport;
+}
+
+.Service-integratie-operations {
+  grid-area: ServiceIntegratieOperations;
+}
+
+.Service-integration-hub {
+  grid-area: ServiceIntegrationHub;
+}
+
+.Integratie-koppel-vlakken {
+  grid-area: IntegratieKoppelVlakken;
+}
+
+.remove-margin > div > p  {
+  margin-top: 0;
+}
