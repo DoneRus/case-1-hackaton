@@ -26,15 +26,12 @@
   color: white;
   text-align: center;
 }  
-<<<<<<< HEAD
-=======
 
 
 
   
 .hidden {
 }
->>>>>>> 31972c2022cc06b56c21dbf5fc9902715e8a6b9d
 
 .wit {
   background-color: white !important;
@@ -206,7 +203,6 @@
   background-color: rgba(62, 53, 53);
   z-index: 2;
   left: 50%;
-<<<<<<< HEAD
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
@@ -236,11 +232,3 @@
     font-size: 0.8em;
   }
 }
-=======
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
->>>>>>> 31972c2022cc06b56c21dbf5fc9902715e8a6b9d
