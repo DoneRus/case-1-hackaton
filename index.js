@@ -1,5 +1,5 @@
 function toggleVisibility(id) {
-  var element = document.getElementById(id);
+  let element = document.getElementById(id);
   if (element.style.display === 'none') {
     element.style.display = 'block';
   } else {
@@ -7,48 +7,58 @@ function toggleVisibility(id) {
   }
 }
 
-function highlightBlocks() {
-  var blok = document.querySelectorAll('.oorzaakEen');
-
-  blok.forEach(function(element) {
-      element.style.backgroundColor = 'green';
-  });
-}
-
-function highlightBlocks2() {
-var blok = document.querySelectorAll('.oorzaakTwee');
-
-blok.forEach(function(element) {
-    element.style.backgroundColor = 'green';
-});
-}
-
-function highlightBlocks3() {
-var blok = document.querySelectorAll('.oorzaakDrie');
-
-blok.forEach(function(element) {
-    element.style.backgroundColor = 'green';
-});
-}
-
-function highlightBlocks4() {
-var blok = document.querySelectorAll('.oorzaakVier');
-
-blok.forEach(function(element) {
-    element.style.backgroundColor = 'green';
-});
-}
-
 function unhighlightBlocks() {
-var blok = document.querySelectorAll('.oorzaakEen, .oorzaakTwee, .oorzaakDrie, .oorzaakVier');
+let blok = document.querySelectorAll('.oorzaakEen, .oorzaakTwee, .oorzaakDrie, .oorzaakVier, .oorzaakEen2, .oorzaakTwee2, .oorzaakDrie2, .oorzaakVier2');
 
 blok.forEach(function(element) {
     element.style.backgroundColor = 'white';
 });
 }
 
+function highlightBlocks() {
+  let blok = document.querySelectorAll('.oorzaakEen');
+  let blok2 = document.querySelectorAll('.oorzaakEen2');
+  
+  blok.forEach(function(element) {
+      element.style.backgroundColor = 'rgb(225, 91, 109)';
+  });
+  blok2.forEach(function(element) {
+    element.style.backgroundColor = 'rgb(235, 178, 33)';
+  });
+  }
 
+function highlightBlocks2() {
+  let blok = document.querySelectorAll('.oorzaakTwee');
+  let blok2 = document.querySelectorAll('.oorzaakTwee2');
+  
+  blok.forEach(function(element) {
+      element.style.backgroundColor = 'rgb(225, 91, 109)';
+  });
+  blok2.forEach(function(element) {
+    element.style.backgroundColor = 'rgb(235, 178, 33)';
+  });
+  }
 
+function highlightBlocks3() {
+  let blok = document.querySelectorAll('.oorzaakDrie');
+  let blok2 = document.querySelectorAll('.oorzaakDrie2');
+  
+  blok.forEach(function(element) {
+      element.style.backgroundColor = 'rgb(225, 91, 109)';
+  });
+  blok2.forEach(function(element) {
+    element.style.backgroundColor = 'rgb(235, 178, 33)';
+  });
+  }
 
+function highlightBlocks4() {
+let blok = document.querySelectorAll('.oorzaakVier');
+let blok2 = document.querySelectorAll('.oorzaakVier2');
 
-
+blok.forEach(function(element) {
+    element.style.backgroundColor = 'rgb(225, 91, 109)';
+});
+blok2.forEach(function(element) {
+  element.style.backgroundColor = 'rgb(235, 178, 33)';
+});
+}

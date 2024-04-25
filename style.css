@@ -10,6 +10,15 @@
     text-align: center;
   }
 
+  .blockLogo {
+    width: 13vw;
+    height: 13vh;
+    box-shadow: 0px 0px 0px 6px rgba(169,204,238,255);
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+  }
+
 .blockBoven {
   width: 13vw;
   height: 13vh;
@@ -18,9 +27,6 @@
   cursor: pointer;
   text-align: center;
 }  
-  
-.hidden {
-}
 
 .wit {
   background-color: white !important;
@@ -42,6 +48,8 @@
   align-items: center;
   font-weight: bold;
 }
+
+
 
 .half {
   height: 3.6vh;
@@ -99,6 +107,7 @@
 .blokTwee {
   display: flex;
   column-gap: 1vw;
+  font-size: 0.6rem;
 }
 
 .blockGeen {
@@ -230,4 +239,28 @@
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   background-color: black;
+}
+
+@media only screen and (max-width: 1387px){
+  .blokTwee {
+    font-size: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 1214px){
+  .blokTwee {
+    font-size: 0.4em;
+  }
+
+  .block{
+    font-size: 0.8em;
+  }
+
+  .blockInt {
+    font-size: 0.8em;
+  }
+
+  .blockBoven {
+    font-size: 0.8em;
+  }
 }
