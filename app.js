@@ -1,9 +1,7 @@
+function overlayOff(overlays) {
+  document.getElementById(overlays).style.display = "none";
+}
 
-
-  function on() {
-    document.getElementById("overlay").style.display = "block";
-  }
-  
-  function off() {
-    document.getElementById("overlay").style.display = "none";
-  }
+function overlayOn(overlays) {
+  document.getElementById(overlays).style.display = "block";
+}
