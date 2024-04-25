@@ -1,12 +1,3 @@
-function toggleVisibility(id) {
-  let element = document.getElementById(id);
-  if (element.style.display === 'none') {
-    element.style.display = 'block';
-  } else {
-    element.style.display = 'none';
-  }
-}
-
 function unhighlightBlocks() {
 let blok = document.querySelectorAll('.oorzaakEen, .oorzaakTwee, .oorzaakDrie, .oorzaakVier, .oorzaakEen2, .oorzaakTwee2, .oorzaakDrie2, .oorzaakVier2');
 
