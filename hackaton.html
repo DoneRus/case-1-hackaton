@@ -12,53 +12,27 @@
     </head>
     <body>
         <header>
-
+           <nav class="CapabilityButton">
+               <div><button onclick="overlayOn('button1')" id="2Button"><a>button1</a></button></div>
+               <div><button id="2Button" onclick="overlayOn('button2')"><a>button2</a></button></div>
+           </nav class=CapabilityButton>
         </header>
-        <main >
-            <div class="container1">
-            <div id="overlay" onclick="off()">
-                <div id="text">  <span class="popuptext" id="myPopup">
-                    <h1>The text size</h1>
-
-                    <h2>Magnimous subtitle</h2>
-
-                    <span>The contentThe contentThe contentThe contentThe contentThe contentThe content
-                        The contentThe contentThe contentThe contentThe contentThe contentThe contentThe content
-                        The contentThe contentThe contentThe contentThe contentThe content
-
-                        The contentThe contentThe contentThe contentThe contentThe content
-
-                        The contentThe contentThe contentThe content
-                    </span>
-
-
-
-
-                </span></div>
-              </div>
-              
-              
-              <div class="popup">
-                <button onclick="on()"><div id="main-text"> Clicl me </div></button>
-              </div>
-            </div>
-        </div>
-
-
-            <section class="block block1">
-
-            </section>
-            <section class="block block2">
-                
-            </section>
-            <section class="block block3">
-                
-            </section>
-            <section class="block block4">
-                
-            </section>
-
+        <main class="main1"onclick="overlayOff('button1') ; overlayOff('button2') ;  ">
+           <canvas id="canvas"></canvas>
+           <div id="button1" >
+               <div class="close" onclick="overlayOff('button1')">x</div>
+                   <h1>Capability description 1</h1>
+    
+           </div>
+           <div id="button2" >
+               <div class="close" onclick="overlayOff('button2')">x</div>
+               <h1>Capability description 2</h1>
+           </div>
         </main>
         <footer>
+           
         </footer>
-    </body>
+   </body>
+   
+   </html>
+   
