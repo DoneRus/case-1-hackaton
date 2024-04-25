@@ -264,3 +264,23 @@
     font-size: 0.8em;
   }
 }
+
+#block5 {
+  border-left: 3px dotted;
+  padding-left: 10px;
+}
+
+#block4 {
+  border-left: 3px dotted;
+  padding-left: 10px;
+}
+
+#block3 {
+  border-left: 3px dotted;
+  padding-left: 10px;
+}
+
+#block2 {
+  border-left: 3px dotted;
+  padding-left: 10px;
+}
